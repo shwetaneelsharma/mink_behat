@@ -1,0 +1,13 @@
+{
+  "require-dev" : {
+    "behat/behat" : "3.*.*",
+    "behat/mink-goutte-driver" : "*",
+    "behat/mink-browserkit-driver" : "*",
+    "behat/mink-extension" : "2.2",
+    "behat/mink-selenium2-driver" : "*",
+    "behat/mink" : "*"
+  },
+  "config": {
+    "bin-dir": "bin/"
+  }
+}
