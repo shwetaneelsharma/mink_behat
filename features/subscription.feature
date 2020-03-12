@@ -1,6 +1,7 @@
 @REQ_GLT-2123
 Feature: Test positive and negative scenarios for Subscription feature
 
+  @GLT-2199
   Background:
     Given I am on homepage
 
