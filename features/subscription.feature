@@ -1,9 +1,10 @@
+@REQ_GLT-2123
 Feature: Test positive and negative scenarios for Subscription feature
 
   Background:
     Given I am on homepage
 
-  @id:1
+  @GLT-2200
   Scenario: As a Guest
     I should be able to subscribe
     on filling a valid Email ID
