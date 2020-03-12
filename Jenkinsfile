@@ -1,7 +1,4 @@
-pipeline {
-    agent any
-
-    stages {
+node() {
         stage('Test') {
             steps {
                 /* `make check` returns non-zero on test failures,
@@ -21,5 +18,5 @@ pipeline {
                 step([$class: 'XrayImportBuilder', endpointName: '/junit', importFilePath: 'results/default.xml', importToSameExecution: 'true', projectKey: 'GLT', serverInstance: 'CLOUD-11dc8400-a3f0-49e0-9370-1125200ef522', testExecKey: 'GLT-2166'])
             }
         }
-    }
 }
+
